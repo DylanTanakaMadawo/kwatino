@@ -1,0 +1,129 @@
+.mobile-container {
+  background-color: #eae7dc;
+  color: #1e1e1c;
+  height: 70px;
+  /* padding: 10px; */
+  width: 100%;
+  display: flex;
+  box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.424);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.mobile-left {
+  margin: auto;
+  /* background-color: grey; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.mobile-left h1 {
+  color: #a5412a;
+}
+
+.mobile-right {
+  margin: auto;
+  /* background-color: brown; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mobile-middle {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.drawer-list-container {
+  height: 85%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-top {
+  height: 60%;
+}
+/* .drawer-bottom {
+  height: 40%;
+  background-color: rgb(241, 241, 241);
+} */
+
+.drawer-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  /* background-color: pink; */
+}
+
+/* DESKTOP NAV STYLES */
+
+.navbar-container {
+  background-color: #eae7dc;
+  color: #1e1e1c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.411);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+
+.links:hover {
+  color: #cb746a;
+  transition: 0.2s ease-in-out;
+}
+
+.right-side {
+  /* background-color: green; */
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links-container {
+  /* background-color: rgb(141, 37, 37); */
+  cursor: pointer;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  /* background-color: green; */
+  border: 1px solid rgba(0, 0, 0, 0.576);
+  border-radius: 5px;
+}
+.cart-link:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  /* color: white; */
+  /* font-weight: bold; */
+  transition: 0.3s ease-in-out;
+}

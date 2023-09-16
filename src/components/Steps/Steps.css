@@ -1,0 +1,65 @@
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner-steps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.steps-container h1 {
+  text-align: center;
+}
+
+.steps {
+  width: 30%;
+  height: 90%;
+  /* background-color: rgb(154, 52, 52); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.steps h3,
+p {
+  text-align: center;
+}
+
+.image-container {
+  height: 180px;
+  border: 1px solid red;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address,
+.shop,
+.delivery {
+  height: 40%;
+  /* background-color: yellowgreen; */
+}
+
+@media (max-width: 720px) {
+  .inner-steps {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* .address,
+  .shop,
+  .delivery {
+    width: 70%;
+  } */
+  .steps {
+    width: 70%;
+  }
+}

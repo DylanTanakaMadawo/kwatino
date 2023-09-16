@@ -1,0 +1,57 @@
+.liqour-card-container {
+  height: 480px;
+  /* background-color: grey; */
+  /* width: 100%; */
+  margin-top: 20px;
+  padding: 20px;
+  /* display: flex; */
+}
+
+.liqour-card {
+  width: 200px;
+  height: 80%;
+  /* background-color: pink; */
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.186);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.liqour-card p {
+  text-align: start;
+  /* color: #cb746a; */
+}
+.liq-name {
+  font-weight: bold;
+}
+
+.liqour-image-container {
+  height: 65%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liqour-image-container img {
+  /* width: 100%; */
+  height: 100%;
+}
+
+.cart-btn {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #cb746a45;
+  padding: 10px;
+}
+.cart-btn:hover {
+  color: white;
+  background-color: #cb746a;
+  /* color: #cb746a; */
+  transition: 0.2s ease-in-out;
+}
+.liq-btn-container {
+  width: 100%;
+  /* margin: auto; */
+  margin-left: 25%;
+}
