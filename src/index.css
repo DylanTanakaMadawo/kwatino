@@ -6,7 +6,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #eae7dc;
+  /* background-color: #eae7dc; */
+  background-color: white;
   color: #1e1e1c;
   font-family: "Poppins", sans-serif;
 }

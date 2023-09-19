@@ -10,7 +10,7 @@ export const Steps = () => {
         <div className="steps">
           <div className="shop">
             <div className="image-container">
-              <img src="" alt="icon" />
+              <img src="./assets/images/drinksicon.avif" alt="icon" />
             </div>
             <h3>Shop for your favourite drinks</h3>
             <p>
@@ -23,7 +23,7 @@ export const Steps = () => {
         <div className="steps">
           <div className="address">
             <div className="image-container">
-              <img src="" alt="icon" />
+              <img src="./assets/images/addressicon.avif" alt="icon" />
             </div>
             <h3>Enter your address</h3>
             <p>
@@ -36,7 +36,7 @@ export const Steps = () => {
         <div className="steps">
           <div className="delivery">
             <div className="image-container">
-              <img src="" alt="icon" />
+              <img src="./assets/images/deliveryicon.avif" alt="icon" />
             </div>
             <h3>Sit back and relax</h3>
             <p>

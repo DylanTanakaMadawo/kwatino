@@ -33,6 +33,10 @@
   justify-content: center;
 }
 
+.wine-image-container img {
+  height: 100%;
+}
+
 .cart-btn {
   text-decoration: none;
   color: black;

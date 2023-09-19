@@ -35,11 +35,14 @@ p {
 
 .image-container {
   height: 180px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* background-color: grey; */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.image-container img {
+  height: 100%;
 }
 
 .address,

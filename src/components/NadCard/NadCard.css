@@ -32,6 +32,9 @@
   align-items: center;
   justify-content: center;
 }
+.nad-image-container img {
+  height: 100%;
+}
 
 .cart-btn {
   text-decoration: none;

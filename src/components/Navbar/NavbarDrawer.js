@@ -46,7 +46,7 @@ export const NavbarDrawer = () => {
               </ListItemText>
               <ListItemText onClick={() => setDrawerOpen(false)}>
                 <a
-                  href="#liquor"
+                  href="#beer"
                   style={{
                     textDecoration: "none",
                     color: "black",
@@ -57,7 +57,7 @@ export const NavbarDrawer = () => {
               </ListItemText>
               <ListItemText onClick={() => setDrawerOpen(false)}>
                 <a
-                  href="#liquor"
+                  href="#wine"
                   style={{
                     textDecoration: "none",
                     color: "black",
@@ -68,7 +68,7 @@ export const NavbarDrawer = () => {
               </ListItemText>
               <ListItemText onClick={() => setDrawerOpen(false)}>
                 <a
-                  href="#liquor"
+                  href="#non-alcaholics"
                   style={{
                     textDecoration: "none",
                     color: "black",
@@ -79,7 +79,7 @@ export const NavbarDrawer = () => {
               </ListItemText>
               <ListItemText onClick={() => setDrawerOpen(false)}>
                 <Link
-                  href="#liquor"
+                  href="#cart"
                   style={{
                     textDecoration: "none",
                     color: "black",
